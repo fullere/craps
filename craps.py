@@ -107,6 +107,10 @@ def play_game(bankroll):
             create()
         else:
             print("Thanks for playing!")
+            print("""
+            
+            -------
+            """)
             input("To start new game hit ENTER")
             create()
     # if yes ask if they want to keep playing or quit
