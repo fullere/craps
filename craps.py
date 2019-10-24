@@ -22,6 +22,7 @@ def create():
 
 
 def game_rules():
+    # asks if player wants to read the rules of craps
     print("Do you wish to read the rules? y/n")
     rules = input("> ")
     rules = rules.strip()
