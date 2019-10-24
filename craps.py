@@ -34,9 +34,9 @@ def game_rules():
     You will continue rolling both dice until either
     you roll the same as your point
     or roll a 7.
-    Matching your point means you win while a 7 is a loss""")
+    Matching your point means you win while a 7 is a loss\n""")
     else:
-        print("Then let us continue.")
+        print("Then let us continue.\n")
 
 
 def play_game(bankroll):
@@ -51,7 +51,7 @@ def play_game(bankroll):
         print("Invalid amount. Enter valid amount")
         bet = int(input("> $"))
     # roll dice and print roll outcome; and determine win, lose, or point
-    print("Rolling dice...")
+    print("\nRolling dice...")
     roll = roll_dice()
     print(f"You rolled a {roll}.")
     # rolled 7 or 11? win.
@@ -118,7 +118,7 @@ def play_game(bankroll):
         print("Play [1]\nQuit [2]")
         selection = int(input("> "))
         if selection == 1:
-            print("Continuing")
+            print("Continuing\n")
             play_game(bankroll_total)
         elif selection == 2:
             print("Thanks for playing!")
