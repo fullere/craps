@@ -104,6 +104,7 @@ def play_game(bankroll):
         choice = choice.lower()
         choice = choice.strip()
         if choice == 'y':
+            print()
             create()
         else:
             print("Thanks for playing!")
@@ -123,6 +124,7 @@ def play_game(bankroll):
         elif selection == 2:
             print("Thanks for playing!")
             input("To start new game hit ENTER")
+            print("\n\n-------\n\n")
             create()
 
 
